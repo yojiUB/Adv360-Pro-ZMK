@@ -1,27 +1,3 @@
-macro_fn_&_end: macro_fn_&_end{
-compatible = "zmk,behavior-macro";
-label = "macro_fn_&_end";
-#binding-cells = <0>;
-bindings = <&kp K_FIND>, <&kp END>;
-};
-macro_fn_&_home: macro_fn_&_home{
-compatible = "zmk,behavior-macro";
-label = "macro_fn_&_home";
-#binding-cells = <0>;
-bindings = <&kp K_FIND>, <&kp HOME>;
-};
-macro_koron: macro_koron{
-compatible = "zmk,behavior-macro";
-label = "macro_koron";
-#binding-cells = <0>;
-bindings = <&kp LSHIFT>, <&kp SEMICOLON>;
-};
-macro_nyuryoku_kirika: macro_nyuryoku_kirika{
-compatible = "zmk,behavior-macro";
-label = "macro_nyuryoku_kirika";
-#binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp SPACE>;
-};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
