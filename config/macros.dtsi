@@ -10,9 +10,9 @@ label = "macro_<";
 #binding-cells = <0>;
 bindings = <&kp LSHIFT>, <&kp COMMA>;
 };
-macro_:: macro_:{
+macro_: macro_{
 compatible = "zmk,behavior-macro";
-label = "macro_:";
+label = "macro_";
 #binding-cells = <0>;
 bindings = <&kp LSHIFT>, <&kp SEMICOLON>;
 };
